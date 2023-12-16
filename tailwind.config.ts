@@ -22,7 +22,8 @@ const config: Config = {
         solidHeadingDarkMode: "#CCCCCC",
         lightContent: "#A7A7A7",
         contentPrimary: "#13B0F5",
-        contentSecondary: "#E70FAA"
+        contentSecondary: "#E70FAA",
+        lightMode: "#fffefe"
       }
     },
   },

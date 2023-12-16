@@ -7,6 +7,19 @@
       @apply bg-darkMode2 text-gray-100;
     }
     .lightMode {
-        @apply bg-gray-50 text-darkMode;
+        @apply bg-lightMode text-darkMode;
     }
+
+    .textGradient {
+        @apply bg-gradient-to-r from-contentPrimary to-contentSecondary text-transparent bg-clip-text inline-block;
+    }
+
+    .bgGradient {
+        @apply bg-gradient-to-r from-contentPrimary via-darkMode to-contentSecondary
+    }
+
+    .headingText {
+        @apply text-[22px] font-medium md:text-[29px];
+    }
+    
   }
