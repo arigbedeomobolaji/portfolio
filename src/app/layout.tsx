@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import StyledComponentsRegistry from '@src/lib/AntdRegistry'
 import './globals.css'
+import { ThemeProvider } from '@src/hooks/ThemeContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <StyledComponentsRegistry>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
+        </StyledComponentsRegistry></body>
     </html>
   )
 }
