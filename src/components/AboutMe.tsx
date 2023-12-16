@@ -16,8 +16,8 @@ export default function AboutMe() {
             <h2 className={`headingText ${themeColor}`}>My name is</h2>
             
             <h2 className={`headingText textGradient`}>Omobolaji Paul</h2>
-            <h3 className={`headingText ${themeColor} text-`}>I build Apps for</h3>
-            <h3 className={`headingText ${themeColor} text-[20px] md:text-[22px]`}>the Web 💻 and Mobile Phones 📱.</h3>
+            <h3 className={`headingText ${themeColor} text-`}>I build Mobile Apps 📱 </h3>
+            <h3 className={`headingText ${themeColor} text-[20px] md:text-[22px]`}>and Web Apps 💻.</h3>
         </div>
         <div className='bg-gradient-to-r from-contentPrimary to-contentSecondary max-w-[300px] max-h-[300px] md:w-[300px] md:h-[300px] rounded-full relative flex items-center justify-center mt-10'>
             <Image
