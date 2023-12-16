@@ -1,4 +1,4 @@
-import amazonS3 from "@src/assets/tech_stack/amazon s3.png"
+import amazonS3 from "@src/assets/tech_stack/amazon_s3.png"
 import apollo from "@src/assets/tech_stack/apollo.png"
 import css from "@src/assets/tech_stack/css.png"
 import expressjs from "@src/assets/tech_stack/expressjs.png"
