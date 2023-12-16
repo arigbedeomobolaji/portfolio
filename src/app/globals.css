@@ -4,7 +4,7 @@
 
 @layer components {
     .darkMode {
-      @apply bg-darkMode2 text-gray-100;
+      @apply bg-darkMode text-gray-100;
     }
     .lightMode {
         @apply bg-lightMode text-darkMode;

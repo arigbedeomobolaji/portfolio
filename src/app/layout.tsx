@@ -4,6 +4,7 @@ import StyledComponentsRegistry from '@src/lib/AntdRegistry'
 import './globals.css'
 import { ThemeProvider } from '@src/hooks/ThemeContext'
 import Navbar from '@src/components/Navbar'
+import Footer from '@src/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <ThemeProvider>
           <Navbar />
           {children}
+          <Footer />
         </ThemeProvider>
         </StyledComponentsRegistry></body>
     </html>

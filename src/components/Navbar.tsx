@@ -14,7 +14,7 @@ const platforms = [
     {Icon: FaLinkedin, link: "https://www.linkedin.com/in/omobolaji-arigbede-a4452b146/"}
 ]
 
-const links = [{
+export const links = [{
     href: "#home",
     label: "Home"
 },{

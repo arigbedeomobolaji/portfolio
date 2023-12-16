@@ -19,7 +19,7 @@ export default function AboutMe() {
             <h3 className={`headingText ${themeColor} text-`}>I build Apps for</h3>
             <h3 className={`headingText ${themeColor} text-[20px] md:text-[22px]`}>the Web 💻 and Mobile Phones 📱.</h3>
         </div>
-        <div className='bgGradient max-w-[300px] max-h-[300px] md:w-[300px] md:h-[300px] rounded-full relative flex items-center justify-center'>
+        <div className='bgGradient max-w-[300px] max-h-[300px] md:w-[300px] md:h-[300px] rounded-full relative flex items-center justify-center mt-10'>
             <Image
                 priority
                 src={me}

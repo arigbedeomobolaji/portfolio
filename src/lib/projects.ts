@@ -62,7 +62,7 @@ export const projects = [{
     projectImage: netflix,
     projectWebsite: "https://netflix-clone-omobolaji.vercel.app/",
     projectRepo: "https://github.com/arigbedeomobolaji/netflix-clone-omobolaji.git",
-    projectName: "Netflix CLone",
+    projectName: "Netflix Clone",
     projectDescription: "Experience the essence of entertainment with a Netflix clone meticulously developed using MERN stack and enriched with Redux for state management. This platform seamlessly integrates MongoDB, Express, React, and Node.js, providing a responsive and immersive streaming experience. Enjoy a user-friendly interface and seamless content navigation on this feature-packed Netflix replica.",
     isLive: true
 },{
