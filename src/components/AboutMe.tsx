@@ -24,7 +24,7 @@ export default function AboutMe() {
                 priority
                 src={me}
                 alt="MyProfilePics"
-                objectFit='cover'
+                // objectFit='cover'
                 className='w-[98%] h-[98%] rounded-full'
             />
         </div>
