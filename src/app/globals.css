@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
 @layer components {
     .darkMode {
       @apply bg-darkMode text-gray-100;
